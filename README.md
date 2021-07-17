@@ -2,7 +2,7 @@
 
 ### **About**
 
-**An automatic Mac changer** is a script to change the mac address of your Linux machine without **losing the internet**.
+**AMC script helps you to change your network interface address (MAC) as per given interval time without interupting your network(Internet).**
 
 
 
@@ -20,19 +20,20 @@
 
 ### **Features** 
 
-Command-line argument
+1. Change MAC address without interputing internet.
+2. Command Line Based Script
+3. Lightweight and easily handleable 
 
-Checks the network interfaces
 
-Manual time setting (Between 25 to 60)
 
 
 
 **Requirements**
 
-macchanger 
+1. macchanger 
+2. Python 3 
+3. pyinstaller (Optional)
 
-Python 3
 
 
 
@@ -87,7 +88,7 @@ root@kali:~$ pyinstaller amc.py
 
 root@kali:~$ cd dist/amc
 
-root@kali:~$ ./amc
+root@kali:~$ ./amc -h
 
 ```
 
