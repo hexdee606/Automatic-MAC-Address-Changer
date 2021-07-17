@@ -108,8 +108,8 @@ root@kali:~$ ./amc  -i eth0 -t 30
 #### Troubleshoot method if internet doesn't work.
 ```console
 
-Change Mac address to original
-root@kali:~$ macchanger -p eth0
+If unable to connect to internet Change Mac address to original
+root@kali:~$ macchanger -p eth0 (Your Network interface)
 
 root@kali:~$ /etc/NetworkManager/ 
 
