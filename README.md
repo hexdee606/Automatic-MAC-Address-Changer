@@ -89,8 +89,9 @@ root@kali:~$ cd dist/amc
 root@kali:~$ ./amc -h
 
 ```
-
-    -h      Help menu
+ *** Available options ***
+ 
+    -h      Help menu (Optional)
     
     -i      network interface
     
