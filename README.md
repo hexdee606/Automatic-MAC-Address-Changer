@@ -49,7 +49,7 @@ $ cd Amc
 
 **Now we have to clone the automatic Mac changer from Github**
 
-$ git clone "    "
+$ git clone " https://github.com/hexdee606/Automatic-MAC-Address-Changer.git   "
 
 **Whenever you want to run you have to come to the Amc folder**
 
@@ -57,7 +57,9 @@ $ git clone "    "
 
 #### **To Run automatic Mac changer**
 
-$ cd Amc*
+$ cd Automatic-MAC-Address-Changer
+
+$ cd dist
 
 $ ./amc
 
