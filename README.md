@@ -67,7 +67,7 @@ root@kali:~$ git clone "https://github.com/hexdee606/Automatic-MAC-Address-Chang
 
 root@kali:~$ cd Automatic-MAC-Address-Changer
 
-root@kali:~$ cd dist/amc
+root@kali:~$ cd dist
 
 root@kali:~$ sudo chmod +x amc  
 
@@ -84,7 +84,7 @@ root@kali:~$ cd Automatic-MAC-Address-Changer
 
 root@kali:~$ pyinstaller amc.py
 
-root@kali:~$ cd dist/amc
+root@kali:~$ cd dist
 
 root@kali:~$ ./amc -h
 
