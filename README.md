@@ -37,9 +37,7 @@
 
 
 
-### Steps to set up **automatic Mac changer**
-
-#### Required Package
+#### Install Required Package
 ```console
 root@kali:~$ sudo apt-get update -y
 
@@ -47,7 +45,7 @@ root@kali:~$ sudo apt-get install -y macchanger
 ```
 
 
-#### Installation of automatic Mac changer
+#### How to Use Automatic MAC Changer
 
 **First, we create an Amc folder/directory:**
 ```console
@@ -58,7 +56,7 @@ root@kali:~$ cd Amc
 
 **Now we have to clone the automatic Mac changer from Github**
 ```console
-root@kali:~$ git clone " https://github.com/hexdee606/Automatic-MAC-Address-Changer.git   "
+root@kali:~$ git clone "https://github.com/hexdee606/Automatic-MAC-Address-Changer.git"
 ```
 **Whenever you want to run you have to come to the Amc folder**
 
