@@ -89,7 +89,7 @@ root@kali:~$ cd dist/amc
 root@kali:~$ ./amc -h
 
 ```
- *** Available options ***
+ ** Available options **
  
     -h      Help menu (Optional)
     
