@@ -107,6 +107,10 @@ root@kali:~$ ./amc  -i eth0 -t 30
 
 #### Troubleshoot method if internet doesn't work.
 ```console
+
+Change Mac address to original
+root@kali:~$ macchanger -p eth0
+
 root@kali:~$ /etc/NetworkManager/ 
 
 root@kali:~$ nano NetworkManager.conf 
@@ -114,5 +118,6 @@ root@kali:~$ nano NetworkManager.conf
 **change: managed=true default: managed=false**
 
 ```
+
 
  
