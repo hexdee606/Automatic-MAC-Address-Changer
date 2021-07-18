@@ -2,7 +2,7 @@
 
 ### **About**
 
-**AMC script helps you to change your network interface address (MAC) as per given interval time without interrupting your network(Internet).**
+**AMC script helps you to change your network interface address (MAC) as per given the interval time without interrupting your network(Internet).**
 
 
 
