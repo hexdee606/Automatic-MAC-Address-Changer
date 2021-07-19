@@ -2,10 +2,10 @@
 # AMC- Automatic Media Access Control (MAC) Address Changer
 
 [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
-![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)
+[![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
 [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/LICENSE)
 [![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
-![status](https://badgen.net/badge/Status/Beta/yellow)
+[![status](https://badgen.net/badge/Status/Beta/yellow)](#)
 
 ## **About**
 
@@ -13,16 +13,16 @@
 
 ## Tested On 
 
- Sr. | Operating System | Version | Virtual Box | VM Ware |
---- | --- | --- | --- | --- |
-1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
-2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
-3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
-4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
-5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
-6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
-7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
-8 | <img align="center" src="https://img.icons8.com/ios/25/000000/raspberry-pi.png">  Raspbian OS</img > | 5.10.17 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
+ Sr. | Operating System | Version | Virtual Box | VM Ware | Network Type |
+--- | --- | --- | --- | --- | --- |
+1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
+2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
+3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
+4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
+5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 |[![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
+6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
+7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | [![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)](#) | [![network](https://badgen.net/badge/Network/Unknown/brown)](#) |
+8 | <img align="center" src="https://img.icons8.com/ios/25/000000/raspberry-pi.png">  Raspbian OS</img > | 5.10.17 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) | [![network](https://badgen.net/badge/Network/Unknown/brown)](#) |
 
  
 ## **Features** 
