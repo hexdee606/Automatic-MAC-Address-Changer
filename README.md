@@ -128,11 +128,13 @@ root@kali:~$ nano NetworkManager.conf
 default: managed=false
 To change: managed=true
 
-
-
-
-
 ```
+We hope you like our project. If 'Yes' click on the star icon at top right corner otherwise leave comment so we can improve this script.
+Love from Alchemists.
+* DM: Twitter :  
+1. @hexdee606
+2. @Paradox_044
+3. @Itachi_9197
 
 
  
