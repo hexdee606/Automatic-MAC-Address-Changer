@@ -21,7 +21,7 @@
 4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
 5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 |[![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
 6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
-7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | [![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)](#) | [![network](https://badgen.net/badge/Network/Unknown/brown)](#) |
+7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](#) | [![network](https://badgen.net/badge/Network/NAT/red)](#) |
 8 | <img align="center" src="https://img.icons8.com/ios/25/000000/raspberry-pi.png">  Raspbian OS</img > | 5.10.17 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) | [![network](https://badgen.net/badge/Network/Unknown/brown)](#) |
 
  
@@ -33,7 +33,9 @@
 
 
 ## **Required packages**
-- macchanger `required` 
+- git `required`
+- net-tools `required`
+- macchanger `required`
 - Python3 `required`
 - pip3 `optional`
 - pyinstaller `Optional`
@@ -41,14 +43,18 @@
 
 ## Install required packages
 ```console
-root@kali:~$ sudo apt-get update -y
+root@kali:~$ sudo apt update -y
 
-root@kali:~$ sudo apt-get install -y macchanger
+root@kali:~$ sudo apt install git-all -y
+
+root@kali:~$ sudo apt install net-tools -y
+
+root@kali:~$ sudo apt install -y macchanger
 ```
 
 ## Install optional packages
 ```console
-root@kali:~$ sudo apt-get update -y
+root@kali:~$ sudo apt update -y
 
 root@kali:~$ sudo apt install python3-pip -y
 
