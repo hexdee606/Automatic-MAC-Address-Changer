@@ -1,68 +1,75 @@
-# AMC- Automatic Media Access Control (MAC) Address Changer 
 
-### **About**
+# AMC- Automatic Media Access Control (MAC) Address Changer
 
-**AMC script helps you to change your network interface address (MAC) as per given the interval time without interrupting your network(Internet).**
+[![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
+![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)
+[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/LICENSE)
+[![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
+![status](https://badgen.net/badge/Status/Beta/yellow)
 
+## **About**
 
+**AMC script helps you change your network interface address (MAC) as per the given interval time without interrupting your network(Internet).**
 
-### Tested On 
+## Tested On 
 
- Kali Linux:
- - 2021.2 (VBox      NAT Network) 
- - 2021.1 (VBox      NAT Network) 
- - 2020.4 (VM & VBox NAT Network)
- - 2019.4 (VBox      NAT Network)
- - 2018.4 (VBox      NAT Network)
+ Sr. | Operating System | Version | Virtual Box | VM Ware |
+--- | --- | --- | --- | --- |
+1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
+7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
+8 | <img align="center" src="https://img.icons8.com/ios/25/000000/raspberry-pi.png">  Raspbian OS</img > | 5.10.17 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
+
  
+## **Features** 
 
-
-
-### **Features** 
-
-1. Change MAC address without interputing internet.
+1. Change MAC address without interrupting the internet.
 2. Command Line Based Script.
 3. Lightweight and easily handleable.
 
 
+## **Required packages**
+- macchanger `required` 
+- Python3 `required`
+- pip3 `optional`
+- pyinstaller `Optional`
 
 
-
-**Requirements**
-
-1. macchanger 
-2. Python 3 
-3. pyinstaller (Optional)
-
-
-
-
-#### Install Required Package
+## Install required packages
 ```console
 root@kali:~$ sudo apt-get update -y
 
 root@kali:~$ sudo apt-get install -y macchanger
 ```
 
-
-#### How to Use Automatic MAC Changer
-
-**First, we create an Amc folder/directory:**
+## Install optional packages
 ```console
-root@kali:~$ mkdir Amc 
+root@kali:~$ sudo apt-get update -y
 
-root@kali:~$ cd Amc
+root@kali:~$ sudo apt install python3-pip -y
+
+root@kali:~$ pip install pyinstaller -y
 ```
 
-**Now we have to clone the automatic Mac changer from Github**
+## How to setup Automatic MAC Changer
+
+>**Create new directory**
+```console
+root@kali:~$ mkdir AMC
+
+root@kali:~$ cd AMC
+```
+
+>**Clone AMC from github**
 ```console
 root@kali:~$ git clone "https://github.com/hexdee606/Automatic-MAC-Address-Changer.git"
 ```
-**Setting up Amc**
 
-**Method 1 : By using chmod**
-
-#### **To Run automatic Mac changer**
+>**Method 1 : By using `chmod`**
 ```console
 
 root@kali:~$ cd Automatic-MAC-Address-Changer
@@ -74,33 +81,33 @@ root@kali:~$ sudo chmod +x amc
 root@kali:~$ ./amc
 ```
 
-
-**Method 2 : BY creating your own excutable file**
+>**Method 2 : By creating an `executable` file**
 ```console 
 
-root@kali:~$ cd Amc
+root@kali:~$ cd AMC
 
 root@kali:~$ cd Automatic-MAC-Address-Changer
 
-root@kali:~$ pyinstaller amc.py
+root@kali:~$ pyinstaller --onefile amc.py
 
 root@kali:~$ cd dist
 
 root@kali:~$ ./amc -h
 
 ```
- ** Available options **
+
+>**Available options**
  
-    -h      Help menu (Optional)
+    [-h]    Help menu 
     
-    -i      network interface
+    -i      Network interface
     
     -t      Time to change the mac address 
 
 
-** Whenever you want use Automatic MAC changer follow this steps: **
+>**Whenever you want to use Automatic MAC Changer AMC follow these steps.**
 ```console
-root@kali:~$ cd Amc
+root@kali:~$ cd AMC
 
 root@kali:~$ cd Automatic-MAC-Address-Changer
 
@@ -110,35 +117,43 @@ root@kali:~$ ./amc
 
 ```
 
-**Example**
+>**Example**
 ```console
 root@kali:~$ ./amc  -i eth0 -t 30
 ```
 
 
-#### Troubleshoot method if internet doesn't work.
+## Troubleshooting methods if the internet is not working.
+
+>If unable to access internet/ connection not established then do the following step (`after using AMC`): 
 ```console
-If unable to connect to internet Change Mac address to original
 root@kali:~$ macchanger -p eth0 (Your Network interface)
+```
 
-
-If amc is not working (after changing mac if the internet is not worked ) then do the following process:
+>If AMC is not working then do the following process:
+```console
 root@kali:~$ /etc/NetworkManager/ 
-
-root@kali:~$ nano NetworkManager.conf 
+root@kali:~$ nano NetworkManager.conf
 
 default: managed=false
 To change: managed=true
-
 ```
-We hope you like our project. If 'Yes' click on the star icon at top right corner otherwise leave comment so we can improve this script.
-Love from Alchemists.
 
-<h3 align="left">Connect Us:</h3>
+## Connect Us
 
-Names|Twitter|Github|Gmail
----|---|---|---
-hexdee606|<a href="https://twitter.com/hexdee606" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="hexdee606" height="30" width="40" /></a>|[<img align="center" src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/hexdee606)|<a href="mailto:hexdee606@gmail.com" target="blank"><img align="center" src="https://camo.githubusercontent.com/4a3dd8d10a27c272fd04b2ce8ed1a130606f95ea6a76b5e19ce8b642faa18c27/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667" alt="hexdee606" height="30" width="40" /></a>
-Paradox44|<a href="https://twitter.com/paradox_044" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="paradox_044" height="30" width="40" /></a>| [<img align="center" src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/Paradox44)|<a href="mailto:paradoxhex44@gmail.com" target="blank"><img align="center" src="https://camo.githubusercontent.com/4a3dd8d10a27c272fd04b2ce8ed1a130606f95ea6a76b5e19ce8b642faa18c27/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667" alt=" paradoxhex44" height="30" width="40" /></a>
-Itachi|<a href="https://twitter.com/itachi_9197" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="itachi_9197" height="30" width="40" /></a>|[<img align="center" src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/Itachi-91)|<a href="mailto:itachiuchiha9197@gmail.com" target="blank"><img align="center" src="https://camo.githubusercontent.com/4a3dd8d10a27c272fd04b2ce8ed1a130606f95ea6a76b5e19ce8b642faa18c27/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667" alt="itachi_9197" height="30" width="40" /></a>
+[![twitter](https://badgen.net/badge/icon/hexdee606?icon=twitter&label)](https://twitter.com/hexdee606)
+[![github](https://badgen.net/badge/icon/hexdee606?icon=github&label)](https://github.com/hexdee606)
+[![email](https://badgen.net/badge/email/hexdee606/blue)](mailto:hexdee606@gmail.com)
+[![twitter](https://badgen.net/badge/icon/Paradox_044?icon=twitter&label)](https://twitter.com/Paradox_044)
+[![github](https://badgen.net/badge/icon/Paradox44?icon=github&label)](https://github.com/Paradox44)
+[![email](https://badgen.net/badge/email/paradoxhex44/blue)](mailto:paradoxhex44@gmail.com)
+[![twitter](https://badgen.net/badge/icon/itachi_9197?icon=twitter&label)](https://twitter.com/itachi_9197)
+[![github](https://badgen.net/badge/icon/Itachi-91?icon=github&label)](https://github.com/Itachi-91)
+[![email](https://badgen.net/badge/email/itachiuchiha9197/blue)](mailto:itachiuchiha9197@gmail.com)
+
+
+>We hope you like our project. If 'Yes' click on the star icon at the top right corner or leave a comment so we can improve this script.
+
+:heart: from Alchemists.
+
 ---
