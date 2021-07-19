@@ -1,3 +1,4 @@
+
 # AMC- Automatic Media Access Control (MAC) Address Changer
 
 [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
@@ -22,6 +23,7 @@
 6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
 7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
 8 | <img align="center" src="https://img.icons8.com/ios/25/000000/raspberry-pi.png">  Raspbian OS</img > | 5.10.17 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
+
  
 ## **Features** 
 
