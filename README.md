@@ -4,7 +4,7 @@
 ![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)
 [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/LICENSE)
 [![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
-[![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
+![status](https://badgen.net/badge/Status/Beta/yellow)
 
 ## **About**
 
@@ -43,14 +43,14 @@ root@kali:~$ sudo apt-get install -y macchanger
 
 ## How to setup Automatic MAC Changer
 
-**Create new directory**
+>**Create new directory**
 ```console
 root@kali:~$ mkdir amc 
 
 root@kali:~$ cd amc
 ```
 
-**Clone AMC from github**
+>**Clone AMC from github**
 ```console
 root@kali:~$ git clone "https://github.com/hexdee606/Automatic-MAC-Address-Changer.git"
 ```
@@ -82,7 +82,7 @@ root@kali:~$ ./amc -h
 
 ```
 
-**Available options**
+>**Available options**
  
     -h      Help menu (Optional)
     
@@ -91,7 +91,7 @@ root@kali:~$ ./amc -h
     -t      Time to change the mac address 
 
 
-**Whenever you want use Automatic MAC changer follow this steps:**
+>**Whenever you want use Automatic MAC changer follow this steps:**
 ```console
 root@kali:~$ cd Amc
 
