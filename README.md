@@ -14,7 +14,7 @@
 
  Sr. | Operating System | Version | Virtual Box | VM Ware |
 --- | --- | --- | --- | --- |
-1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | ![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)| ![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b) |
+1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
 2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
 3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
 4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
@@ -25,7 +25,7 @@
  
 ## **Features** 
 
-1. Change MAC address without interputing internet.
+1. Change MAC address without interrupting the internet.
 2. Command Line Based Script.
 3. Lightweight and easily handleable.
 
