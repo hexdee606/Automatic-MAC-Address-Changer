@@ -21,8 +21,8 @@
 ### **Features** 
 
 1. Change MAC address without interputing internet.
-2. Command Line Based Script
-3. Lightweight and easily handleable 
+2. Command Line Based Script.
+3. Lightweight and easily handleable.
 
 
 
@@ -58,7 +58,7 @@ root@kali:~$ cd Amc
 ```console
 root@kali:~$ git clone "https://github.com/hexdee606/Automatic-MAC-Address-Changer.git"
 ```
-**Whenever you want to run you have to come to the Amc folder**
+**Setting up Amc**
 
 **Method 1 : By using chmod**
 
@@ -98,6 +98,17 @@ root@kali:~$ ./amc -h
     -t      Time to change the mac address 
 
 
+** Whenever you want use Automatic MAC changer follow this steps: **
+```console
+root@kali:~$ cd Amc
+
+root@kali:~$ cd Automatic-MAC-Address-Changer
+
+root@kali:~$ cd dist
+
+root@kali:~$ ./amc
+
+```
 
 **Example**
 ```console
