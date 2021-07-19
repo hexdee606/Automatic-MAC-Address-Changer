@@ -132,9 +132,10 @@ To change: managed=true
 We hope you like our project. If 'Yes' click on the star icon at top right corner otherwise leave comment so we can improve this script.
 Love from Alchemists.
 * DM: Twitter :  
-1. @hexdee606
-2. @Paradox_044
-3. @Itachi_9197
+1. <a href="https://twitter.com/hexdee606" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="hexdee606" height="30" width="40" /></a>hexdee606
+2. <a href="https://twitter.com/paradox_044" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="paradox_044" height="30" width="40" /></a>Paradox_044
+3. <a href="https://twitter.com/itachi_9197" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="itachi_9197" height="30" width="40" /></a>Itachi_9197
+
 
 
  
