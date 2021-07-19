@@ -12,14 +12,17 @@
 
 ## Tested On 
 
- Kali Linux:
- - 2021.2 (VBox      NAT Network) 
- - 2021.1 (VBox      NAT Network) 
- - 2020.4 (VM & VBox NAT Network)
- - 2019.4 (VBox      NAT Network)
- - 2018.4 (VBox      NAT Network)
+ Sr. | Operating System | Version | Virtual Box | VM Ware |
+--- | --- | --- | --- | --- |
+1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | ![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)| ![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b) |
+2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 | ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)| ![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1) |
+6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 21.04 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
+7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
+8 | <img align="center" src="https://img.icons8.com/ios/25/000000/raspberry-pi.png">  Raspbian OS</img > | 5.10.17 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) |
  
-
 ## **Features** 
 
 1. Change MAC address without interputing internet.
@@ -27,18 +30,27 @@
 3. Lightweight and easily handleable.
 
 
-## **Requirements**
+## **Required packages**
+- macchanger `required` 
+- Python3 `required`
+- pip3 `optional`
+- pyinstaller `Optional`
 
-1. macchanger 
-2. Python 3 
-3. pyinstaller (Optional)
 
-
-## Install Required Packages
+## Install required packages
 ```console
 root@kali:~$ sudo apt-get update -y
 
 root@kali:~$ sudo apt-get install -y macchanger
+```
+
+## Install optional packages
+```console
+root@kali:~$ sudo apt-get update -y
+
+root@kali:~$ sudo apt install python3-pip -y
+
+root@kali:~$ pip install pyinstaller -y
 ```
 
 ## How to setup Automatic MAC Changer
@@ -129,10 +141,13 @@ To change: managed=true
 
 [![twitter](https://badgen.net/badge/icon/hexdee606?icon=twitter&label)](https://twitter.com/hexdee606)
 [![github](https://badgen.net/badge/icon/hexdee606?icon=github&label)](https://github.com/hexdee606)
+[![email](https://badgen.net/badge/email/hexdee606/blue)](mailto:hexdee606@gmail.com)
 [![twitter](https://badgen.net/badge/icon/paradox_044?icon=twitter&label)](https://twitter.com/paradox_044)
 [![github](https://badgen.net/badge/icon/Paradox44?icon=github&label)](https://github.com/Paradox44)
+[![email](https://badgen.net/badge/email/paradox_044/blue)](mailto:hexdee606@gmail.com)
 [![twitter](https://badgen.net/badge/icon/itachi_9197?icon=twitter&label)](https://twitter.com/itachi_9197)
 [![github](https://badgen.net/badge/icon/Itachi-91?icon=github&label)](https://github.com/Itachi-91)
+[![email](https://badgen.net/badge/email/Itachi-91/blue)](mailto:hexdee606@gmail.com)
 
 
 >We hope you like our project. If 'Yes' click on the star icon at top right corner otherwise leave comment so we can improve this script.
