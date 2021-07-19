@@ -75,7 +75,7 @@ root@kali:~$ ./amc
 ```
 
 
-**Method 2 : BY creating your own excutable file**
+**Method 2 : By creating your own excutable file**
 ```console 
 
 root@kali:~$ cd Amc
@@ -98,7 +98,7 @@ root@kali:~$ ./amc -h
     -t      Time to change the mac address 
 
 
-** Whenever you want use Automatic MAC changer follow this steps: **
+**Whenever you want use Automatic MAC changer follow this steps:**
 ```console
 root@kali:~$ cd Amc
 
@@ -117,19 +117,18 @@ root@kali:~$ ./amc  -i eth0 -t 30
 
 
 #### Troubleshoot method if internet doesn't work.
+
+>If unable to connect to internet Change Mac address to original
 ```console
-If unable to connect to internet Change Mac address to original
 root@kali:~$ macchanger -p eth0 (Your Network interface)
-
-
-If amc is not working (after changing mac if the internet is not worked ) then do the following process:
+```
+>If amc is not working (after changing mac if the internet is not worked ) then do the following process:
+```console
 root@kali:~$ /etc/NetworkManager/ 
-
-root@kali:~$ nano NetworkManager.conf 
+root@kali:~$ nano NetworkManager.conf
 
 default: managed=false
 To change: managed=true
-
 ```
 We hope you like our project. If 'Yes' click on the star icon at top right corner otherwise leave comment so we can improve this script.
 Love from Alchemists.
