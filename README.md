@@ -121,6 +121,8 @@ root@kali:~$ ./amc  -i eth0 -t 30
 If unable to connect to internet Change Mac address to original
 root@kali:~$ macchanger -p eth0 (Your Network interface)
 
+
+If amc is not working (after changing mac if the internet is not worked ) then do the following process:
 root@kali:~$ /etc/NetworkManager/ 
 
 root@kali:~$ nano NetworkManager.conf 
@@ -131,12 +133,30 @@ To change: managed=true
 ```
 We hope you like our project. If 'Yes' click on the star icon at top right corner otherwise leave comment so we can improve this script.
 Love from Alchemists.
-* DM: Twitter :  
-1. <a href="https://twitter.com/hexdee606" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="hexdee606" height="30" width="40" /></a>hexdee606
-2. <a href="https://twitter.com/paradox_044" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="paradox_044" height="30" width="40" /></a>Paradox_044
-3. <a href="https://twitter.com/itachi_9197" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="itachi_9197" height="30" width="40" /></a>Itachi_9197
+
+<h3 align="left">Connect Us:</h3>
+
+Names|Twitter|Github|Gmail
+---|---|---|---
+hexdee606|<a href="https://twitter.com/hexdee606" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="hexdee606" height="30" width="40" /></a>|[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/hexdee606)|<a href="https://mail.google.com/mail/hexdee606@gmail.com" target="blank"><img align="center" src="https://fonts.gstatic.com/s/i/materialiconsoutlined/email/v16/24px.svg" alt="hexdee606" height="30" width="40" /></a>
+Paradox44|<a href="https://twitter.com/paradox_044" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="paradox_044" height="30" width="40" /></a>| [<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/Paradox44)|<a href="https://mail.google.com/mail/ paradoxhex44@gmail.com" target="blank"><img align="center" src="https://fonts.gstatic.com/s/i/materialiconsoutlined/email/v16/24px.svg" alt=" paradoxhex44" height="30" width="40" /></a>
+Itachi|<a href="https://twitter.com/itachi_9197" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="itachi_9197" height="30" width="40" /></a>|[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://github.com/Itachi-91)|<a href="https://mail.google.com/mail/itachiuchiha9197@gmail.com" target="blank"><img align="center" src="https://fonts.gstatic.com/s/i/materialiconsoutlined/email/v16/24px.svg" alt="itachi_9197" height="30" width="40" /></a>
+ 
+
+---
+
+
+
+  
+  
+  
+  
+  
 
 
 
  
+ 
+ 
+
 
