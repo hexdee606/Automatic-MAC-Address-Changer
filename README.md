@@ -48,7 +48,7 @@ root@kali:~$ sudo apt install git-all -y
 
 root@kali:~$ sudo apt install net-tools -y
 
-root@kali:~$ sudo apt intall network-manager -y
+root@kali:~$ sudo apt install network-manager -y
 
 root@kali:~$ sudo apt install -y macchanger
 ```
