@@ -1,5 +1,5 @@
 
-# AMC- Automatic Media Access Control (MAC) Address Change
+# AMC- Automatic Media Access Control (MAC) Address Changer
 
 [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/Automatic-MAC-Address-Changer#readme)
 [![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
