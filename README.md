@@ -15,15 +15,13 @@
 
  Sr. | Operating System | Version | Virtual Box | VM Ware | Network Type |
 --- | --- | --- | --- | --- | --- |
-1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
-2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
-3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
-4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
-5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 |[![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
-6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](#)| [![network](https://badgen.net/badge/Network/NAT/brown)](#) |
-7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](#)| [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](#) | [![network](https://badgen.net/badge/Network/NAT/red)](#) |
-8 | <img align="center" src="https://img.icons8.com/ios/25/000000/raspberry-pi.png">  Raspbian OS</img > | 5.10.17 | ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages)| ![status](https://badgen.net/github/status/micromatch/micromatch/gh-pages) | [![network](https://badgen.net/badge/Network/Unknown/brown)](#) |
-
+1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) |
+2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) |
+3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) |
+4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) |
+5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) |
+6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) |
+7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) | [![network](https://badgen.net/badge/Network/NAT/red)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/README.md#tested-on) |
  
 ## **Features** 
 
@@ -36,6 +34,7 @@
 - git `required`
 - net-tools `required`
 - macchanger `required`
+- network-manager `required`
 - Python3 `required`
 - pip3 `optional`
 - pyinstaller `Optional`
@@ -48,6 +47,8 @@ root@kali:~$ sudo apt update -y
 root@kali:~$ sudo apt install git-all -y
 
 root@kali:~$ sudo apt install net-tools -y
+
+root@kali:~$ sudo apt install network-manager -y
 
 root@kali:~$ sudo apt install -y macchanger
 ```
