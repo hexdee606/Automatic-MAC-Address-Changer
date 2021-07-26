@@ -121,7 +121,6 @@ root@kali:~$ cd Automatic-MAC-Address-Changer
 root@kali:~$ cd dist
 
 root@kali:~$ ./amc
-
 ```
 
 >**Example**
@@ -139,7 +138,7 @@ root@kali:~$ macchanger -p eth0 (Your Network interface)
 
 >If AMC is not working then do the following process:
 ```console
-root@kali:~$ /etc/NetworkManager/ 
+root@kali:~$ cd /etc/NetworkManager/ 
 root@kali:~$ nano NetworkManager.conf
 
 default: managed=false
