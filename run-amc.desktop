@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name='automatic mac address changer'
+Icon=utilities-terminal
+Exec='sh ./amc.sh'
+Categories=Application;
