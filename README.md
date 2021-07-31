@@ -39,69 +39,85 @@
 - pip3 `optional`
 - pyinstaller `Optional`
 
+## **User Type**
+`User must be super user / root user.` 
 
 ## Install required packages
 ```console
-root@kali:~$ sudo apt update -y
-
-root@kali:~$ sudo apt install git-all -y
-
-root@kali:~$ sudo apt install net-tools -y
-
-root@kali:~$ sudo apt install network-manager -y
-
-root@kali:~$ sudo apt install -y macchanger
+ sudo apt update -y
+```
+```console
+ sudo apt install git-all -y
+```
+```console
+ sudo apt install net-tools -y
+```
+```console
+ sudo apt install network-manager -y
+```
+```console
+ sudo apt install -y macchanger
 ```
 
 ## Install optional packages
 ```console
-root@kali:~$ sudo apt update -y
-
-root@kali:~$ sudo apt install python3-pip -y
-
-root@kali:~$ pip install pyinstaller -y
+ sudo apt update -y
+```
+```console
+ sudo apt install python3-pip -y
+```
+```console
+ pip install pyinstaller -y
 ```
 
 ## How to setup Automatic MAC Changer
 
 >**Create new directory**
 ```console
-root@kali:~$ mkdir AMC
-
-root@kali:~$ cd AMC
+ mkdir AMC
+```
+```console
+ cd AMC
 ```
 
 >**Clone AMC from github**
 ```console
-root@kali:~$ git clone "https://github.com/hexdee606/Automatic-MAC-Address-Changer.git"
+ git clone "https://github.com/hexdee606/Automatic-MAC-Address-Changer.git"
 ```
 
 >**Method 1 : By using `chmod`**
 ```console
 
-root@kali:~$ cd Automatic-MAC-Address-Changer
-
-root@kali:~$ cd dist
-
-root@kali:~$ sudo chmod +x amc  
-
-root@kali:~$ ./amc
+ cd Automatic-MAC-Address-Changer
+```
+```console
+ cd dist
+```
+```console
+ sudo chmod +x amc
+```
+```console
+ ./amc
 ```
 
 >**Method 2 : By creating an `executable` file**
 ```console 
 
-root@kali:~$ cd AMC
-
-root@kali:~$ cd Automatic-MAC-Address-Changer
-
-root@kali:~$ pyinstaller --onefile amc.py
-
-root@kali:~$ cd dist
-
-root@kali:~$ ./amc -h
-
+ cd AMC
 ```
+```console
+ cd Automatic-MAC-Address-Changer
+```
+```console
+ pyinstaller --onefile amc.py
+```
+```console
+ cd dist
+```
+```console
+ ./amc -h
+```
+
 
 >**Available options**
  
@@ -113,19 +129,11 @@ root@kali:~$ ./amc -h
 
 
 >**Whenever you want to use Automatic MAC Changer AMC follow these steps.**
-```console
-root@kali:~$ cd AMC
 
-root@kali:~$ cd Automatic-MAC-Address-Changer
-
-root@kali:~$ cd dist
-
-root@kali:~$ ./amc
-```
 
 >**Example**
 ```console
-root@kali:~$ ./amc  -i eth0 -t 30
+ ./amc  -i eth0 -t 30
 ```
 
 
@@ -133,14 +141,11 @@ root@kali:~$ ./amc  -i eth0 -t 30
 
 >If unable to access internet/ connection not established then do the following step (`after using AMC`): 
 ```console
-root@kali:~$ macchanger -p eth0 (Your Network interface)
+ macchanger -p eth0 (Your Network interface)
 ```
 
 >If AMC is not working then do the following process:
 ```console
-root@kali:~$ cd /etc/NetworkManager/ 
-root@kali:~$ nano NetworkManager.conf
-
 default: managed=false
 To change: managed=true
 ```
