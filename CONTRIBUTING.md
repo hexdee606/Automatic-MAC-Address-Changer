@@ -10,7 +10,7 @@
 
 
 ## Link: CODE_OF_CONDUCT.md
-[![CoC](https://badgen.net/badge/CODE_OF_CONDUCT/Link/blue?icon=information)](https://github.com/Paradox44/Kali-Linux-Updater/blob/main/CODE_OF_CONDUCT.md): https://github.com/Paradox44/Kali-Linux-Updater/blob/main/CODE_OF_CONDUCT.md
+[![CoC](https://badgen.net/badge/CODE_OF_CONDUCT/Link/blue?icon=information)](https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/CODE_OF_CONDUCT.md): https://github.com/hexdee606/Automatic-MAC-Address-Changer/blob/main/CODE_OF_CONDUCT.md
 
 ## Community and Behavioural Expectations:
 
